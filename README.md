@@ -27,4 +27,4 @@ Project for the Course "Physical Methods of Biology"
 
 ## Usage
 
-Follow [instructions on AlphaFLOW repository](https://github.com/bjing2016/alphaflow?tab=readme-ov-file#running-inference).
+Follow [_Running inference_ instructions](https://github.com/bjing2016/alphaflow?tab=readme-ov-file#running-inference) on AlphaFLOW repository.
