@@ -1,4 +1,4 @@
-# biology
+# Biology project: AlphaFLOW
 
 Project for the Course "Physical Methods of Biology"
 
