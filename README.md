@@ -4,10 +4,10 @@ Project for the Course "Physical Methods of Biology"
 
 ## Installation
 
-- Create a virtual environment: `conda create -n [name] python=3.9`
+- Create a virtual environment: `conda create -n [name] python=3.9 cuda-version=11.6`
 - Activate it: `conda activate [name]`
 - Install CUDA: `conda install nvidia/label/cuda-11.6.2::cuda`
-- Since you are using a conda environment, you might need to have these env variables set, so that it correctly points to the environment's CUDA directories:  
+- [Optional] If during inference you get an error stating that a certain function is not implemented on CPU, it's probably due to the fact that openfold has been installed on CPU. Since you are using a conda environment, you might need to have these env variables set, so that it correctly points to the environment's CUDA directories:  
   Note that you need to have these **before** installing openfold, as briefly explained [in this issue](https://github.com/aqlaboratory/openfold/issues/293#issuecomment-2058255494).
   ```
   export CUDA_HOME=$CONDA_PREFIX
