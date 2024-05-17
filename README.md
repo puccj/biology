@@ -1,6 +1,7 @@
 # Biology project: AlphaFLOW
 
-Project for the Course "Physical Methods of Biology": Using [AlphaFLOW](https://github.com/bjing2016/alphaflow) to simulate some protein structures
+Project for the Course "Physical Methods of Biology": Using [AlphaFLOW](https://github.com/bjing2016/alphaflow) to predict some protein structures.  
+Note that this repo contains only the data and the output used for the project. The actual code can be found in the AlphaFLOW repository.
 
 ## Prerequisites
 
